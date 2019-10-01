@@ -13,5 +13,7 @@ If you are using psql, you can use \i &lt;script.sql&gt; to run.
 | f\_parse\_url.sql | Uses urlparse to parse URL and returns specified attribute of given URL |
 | f\_parse\_xml.sql | Uses xml.etree.ElementTree to parse XML |
 | f\_unixts\_to\_timestamp.sql | Uses pandas library to convert a unix timestamp to UTC datetime |
-| f\_predict\_linregress\_xml.sql | Uses xml.etree.ElementTree to parse XML |
 | f\_predict\_linregress.sql | Uses linregress to calculate linear least-squares regression for two arrays of float values |
+| f\_gcd.sql | Finds the greatest common denominator for two integer values |
+| f\_p\_value.sql | Returns a p-value for a controlled experiment to determine statistical significance. |
+| f\_significance.sql | This function is primarily targeted at AB test results, mapping the z-score to a probability, allowing you to measure the significance of test cohorts conversion rate against the control group |
