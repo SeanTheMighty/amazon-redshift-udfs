@@ -16,4 +16,5 @@ If you are using psql, you can use \i &lt;script.sql&gt; to run.
 | f\_predict\_linregress.sql | Uses linregress to calculate linear least-squares regression for two arrays of float values |
 | f\_gcd.sql | Finds the greatest common denominator for two integer values |
 | f\_p\_value.sql | Returns a p-value for a controlled experiment to determine statistical significance. |
+| f\_hypotest.sql | Performs a null/alt hypothosis test, returning p-value informing us whether to reject the null hypothesis (below 5%) or accept it (above 5%) |
 | f\_significance.sql | This function is primarily targeted at AB test results, mapping the z-score to a probability, allowing you to measure the significance of test cohorts conversion rate against the control group |
