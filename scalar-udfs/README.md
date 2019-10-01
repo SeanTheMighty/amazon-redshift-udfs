@@ -13,4 +13,5 @@ If you are using psql, you can use \i &lt;script.sql&gt; to run.
 | f\_parse\_url.sql | Uses urlparse to parse URL and returns specified attribute of given URL |
 | f\_parse\_xml.sql | Uses xml.etree.ElementTree to parse XML |
 | f\_unixts\_to\_timestamp.sql | Uses pandas library to convert a unix timestamp to UTC datetime |
-
+| f\_predict\_linregress\_xml.sql | Uses xml.etree.ElementTree to parse XML |
+| f\_predict\_linregress.sql | Uses linregress to calculate linear least-squares regression for two arrays of float values |
